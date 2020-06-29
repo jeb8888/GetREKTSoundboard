@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702EB0FC24A93B5D007FD15E /* GRSBSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EB0FB24A93B5D007FD15E /* GRSBSoundViewController.swift */; };
+		702EB0FE24A95C8D007FD15E /* GRSBPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EB0FD24A95C8D007FD15E /* GRSBPageViewController.swift */; };
+		702EB10024A964CA007FD15E /* GRSBSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702EB0FF24A964CA007FD15E /* GRSBSoundManager.swift */; };
 		7038C9C324A3FEDD00A8B920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038C9C224A3FEDD00A8B920 /* AppDelegate.swift */; };
-		7038C9C524A3FEDD00A8B920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038C9C424A3FEDD00A8B920 /* SceneDelegate.swift */; };
 		7038C9C724A3FEDD00A8B920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038C9C624A3FEDD00A8B920 /* ViewController.swift */; };
 		7038C9CA24A3FEDD00A8B920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7038C9C824A3FEDD00A8B920 /* Main.storyboard */; };
 		7038C9CD24A3FEDD00A8B920 /* GRSB_Swift_5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7038C9CB24A3FEDD00A8B920 /* GRSB_Swift_5.xcdatamodeld */; };
 		7038C9CF24A3FEDE00A8B920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7038C9CE24A3FEDE00A8B920 /* Assets.xcassets */; };
 		7038C9D224A3FEDE00A8B920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7038C9D024A3FEDE00A8B920 /* LaunchScreen.storyboard */; };
+		7038C9DC24A405D600A8B920 /* GRSBButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038C9DB24A405D600A8B920 /* GRSBButtonView.swift */; };
+		707B280D24A85914007CA3A7 /* Sceebus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B280C24A85914007CA3A7 /* Sceebus.swift */; };
+		707B280F24A8F994007CA3A7 /* Sceebus II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B280E24A8F994007CA3A7 /* Sceebus II.swift */; };
+		70E1959224A81B7A00D33081 /* comicbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70E1959024A81B7A00D33081 /* comicbd.ttf */; };
+		70E1959324A81B7A00D33081 /* comic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70E1959124A81B7A00D33081 /* comic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702EB0FB24A93B5D007FD15E /* GRSBSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSBSoundViewController.swift; sourceTree = "<group>"; };
+		702EB0FD24A95C8D007FD15E /* GRSBPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSBPageViewController.swift; sourceTree = "<group>"; };
+		702EB0FF24A964CA007FD15E /* GRSBSoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSBSoundManager.swift; sourceTree = "<group>"; };
 		7038C9BF24A3FEDD00A8B920 /* GRSB Swift 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRSB Swift 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7038C9C224A3FEDD00A8B920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7038C9C424A3FEDD00A8B920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7038C9C624A3FEDD00A8B920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7038C9C924A3FEDD00A8B920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7038C9CC24A3FEDD00A8B920 /* GRSB_Swift_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRSB_Swift_5.xcdatamodel; sourceTree = "<group>"; };
 		7038C9CE24A3FEDE00A8B920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7038C9D124A3FEDE00A8B920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7038C9D324A3FEDE00A8B920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7038C9DB24A405D600A8B920 /* GRSBButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSBButtonView.swift; sourceTree = "<group>"; };
+		707B280C24A85914007CA3A7 /* Sceebus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sceebus.swift; sourceTree = "<group>"; };
+		707B280E24A8F994007CA3A7 /* Sceebus II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sceebus II.swift"; sourceTree = "<group>"; };
+		70E1959024A81B7A00D33081 /* comicbd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comicbd.ttf; sourceTree = "<group>"; };
+		70E1959124A81B7A00D33081 /* comic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,31 @@
 		7038C9C124A3FEDD00A8B920 /* GRSB Swift 5 */ = {
 			isa = PBXGroup;
 			children = (
+				70E1958F24A81B6100D33081 /* Fonts */,
 				7038C9C224A3FEDD00A8B920 /* AppDelegate.swift */,
-				7038C9C424A3FEDD00A8B920 /* SceneDelegate.swift */,
 				7038C9C624A3FEDD00A8B920 /* ViewController.swift */,
+				702EB0FD24A95C8D007FD15E /* GRSBPageViewController.swift */,
+				702EB0FB24A93B5D007FD15E /* GRSBSoundViewController.swift */,
+				702EB0FF24A964CA007FD15E /* GRSBSoundManager.swift */,
+				707B280C24A85914007CA3A7 /* Sceebus.swift */,
+				707B280E24A8F994007CA3A7 /* Sceebus II.swift */,
 				7038C9C824A3FEDD00A8B920 /* Main.storyboard */,
 				7038C9CE24A3FEDE00A8B920 /* Assets.xcassets */,
 				7038C9D024A3FEDE00A8B920 /* LaunchScreen.storyboard */,
 				7038C9D324A3FEDE00A8B920 /* Info.plist */,
 				7038C9CB24A3FEDD00A8B920 /* GRSB_Swift_5.xcdatamodeld */,
+				7038C9DB24A405D600A8B920 /* GRSBButtonView.swift */,
 			);
 			path = "GRSB Swift 5";
+			sourceTree = "<group>";
+		};
+		70E1958F24A81B6100D33081 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				70E1959124A81B7A00D33081 /* comic.ttf */,
+				70E1959024A81B7A00D33081 /* comicbd.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E1959224A81B7A00D33081 /* comicbd.ttf in Resources */,
 				7038C9D224A3FEDE00A8B920 /* LaunchScreen.storyboard in Resources */,
 				7038C9CF24A3FEDE00A8B920 /* Assets.xcassets in Resources */,
+				70E1959324A81B7A00D33081 /* comic.ttf in Resources */,
 				7038C9CA24A3FEDD00A8B920 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7038C9C724A3FEDD00A8B920 /* ViewController.swift in Sources */,
+				702EB0FE24A95C8D007FD15E /* GRSBPageViewController.swift in Sources */,
+				702EB10024A964CA007FD15E /* GRSBSoundManager.swift in Sources */,
 				7038C9C324A3FEDD00A8B920 /* AppDelegate.swift in Sources */,
-				7038C9C524A3FEDD00A8B920 /* SceneDelegate.swift in Sources */,
+				7038C9DC24A405D600A8B920 /* GRSBButtonView.swift in Sources */,
+				707B280D24A85914007CA3A7 /* Sceebus.swift in Sources */,
 				7038C9CD24A3FEDD00A8B920 /* GRSB_Swift_5.xcdatamodeld in Sources */,
+				702EB0FC24A93B5D007FD15E /* GRSBSoundViewController.swift in Sources */,
+				707B280F24A8F994007CA3A7 /* Sceebus II.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ebenstein.GRSB-Swift-5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ebenstein.GRSB-Swift-5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

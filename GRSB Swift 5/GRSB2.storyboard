@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="comic.ttf">
+            <string>ComicSansMS</string>
+        </array>
+        <array key="comicbd.ttf">
+            <string>ComicSansMS-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="JITViewController" id="BYZ-38-t0r" customClass="JITViewController" customModule="Get_REKT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wn7-2o-MMx">
+                                <rect key="frame" x="244.5" y="91" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ly4-Mt-Clr">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUh-az-pqK">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="5GO-8f-Im0"/>
+                                    <constraint firstAttribute="width" constant="100" id="jzJ-i4-nd5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Krz-zR-56w">
+                                <rect key="frame" x="27.5" y="0.0" width="320" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="5Im-hl-VE9"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iul-Oc-KRJ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyJ-zg-hjU">
+                                <rect key="frame" x="142.5" y="625" width="90" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="mO6-L3-ata"/>
+                                    <constraint firstAttribute="height" constant="32" id="zpb-hM-qpo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="16"/>
+                                <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXS-1r-A4D">
+                                <rect key="frame" x="30.5" y="91" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OId-VC-69R">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0L-pV-iLF">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="Nn7-pQ-yeZ"/>
+                                    <constraint firstAttribute="width" constant="100" id="UCt-9J-58A"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoE-Bg-X6l">
+                                <rect key="frame" x="137.5" y="91" width="100" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNE-U2-Aif">
+                                        <rect key="frame" x="8" y="46" width="84" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8o-pi-6Dt">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Okj-jL-AiU"/>
+                                    <constraint firstAttribute="height" constant="85" id="fqR-il-IdD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xq-9k-AwR">
+                                <rect key="frame" x="30.5" y="191" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dg-aj-yEp">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5z-Ei-UOZ">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Zxg-BW-BxP"/>
+                                    <constraint firstAttribute="height" constant="85" id="ipH-xw-RZF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeM-LF-6wn">
+                                <rect key="frame" x="137.5" y="191" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U60-Pv-aom">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riU-SS-Hi1">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="9Wy-dL-ZLu"/>
+                                    <constraint firstAttribute="width" constant="100" id="SkW-rY-QZf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bf-ha-CAz">
+                                <rect key="frame" x="244.5" y="191" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5r-u7-zqm">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ka-g9-wNc">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="boq-uH-mMd"/>
+                                    <constraint firstAttribute="height" constant="85" id="ocr-Qa-hq9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hj5-zj-9DF">
+                                <rect key="frame" x="30.5" y="291" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9t-rd-NyW">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auD-IP-Hfh">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="TVA-81-vPl"/>
+                                    <constraint firstAttribute="height" constant="85" id="mlo-r8-B2i"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPg-jG-Idx">
+                                <rect key="frame" x="137.5" y="291" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ3-dZ-PW4">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u85-Tk-iTu">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="h70-O9-9jx"/>
+                                    <constraint firstAttribute="width" constant="100" id="hbz-C8-BVK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-a6-1UY">
+                                <rect key="frame" x="244.5" y="291" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmL-wq-95h">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JT4-bA-2mO">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="YyQ-9o-O8H"/>
+                                    <constraint firstAttribute="width" constant="100" id="eqY-nv-Cvt"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeY-op-hfr">
+                                <rect key="frame" x="30.5" y="391" width="100" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5x-N9-mqw">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCl-mc-lOM">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Gvi-2C-SyF"/>
+                                    <constraint firstAttribute="height" constant="85" id="Maj-6Q-fFi"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqk-CI-ed4">
+                                <rect key="frame" x="137.5" y="391" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3w-QI-lzr">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsf-OB-OQH">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JeC-oo-GxW"/>
+                                    <constraint firstAttribute="height" constant="85" id="Ka4-Fj-4LR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UiF-RM-1Qj">
+                                <rect key="frame" x="244.5" y="391" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUR-oX-yu7">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-7F-N8i">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="kgo-Pc-ZMR"/>
+                                    <constraint firstAttribute="width" constant="100" id="nJm-en-hcg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60P-Yj-kU7">
+                                <rect key="frame" x="30.5" y="491" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH6-sA-zVT">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyM-7w-frj">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="MbR-eQ-K1T"/>
+                                    <constraint firstAttribute="width" constant="100" id="OF7-w2-9jL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOX-Py-vPG">
+                                <rect key="frame" x="137.5" y="491" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSK-sa-fTN">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOM-g9-J2s">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="Fby-cQ-SyN"/>
+                                    <constraint firstAttribute="width" constant="100" id="KHP-YY-Zgu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPH-IX-QTp">
+                                <rect key="frame" x="244.5" y="491" width="100" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4v-XS-C7q">
+                                        <rect key="frame" x="28" y="0.0" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.060121520210000001" blue="0.025105179299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kf-cg-ThR">
+                                        <rect key="frame" x="0.0" y="46" width="100" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="13"/>
+                                        <color key="textColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="2dK-Wd-SRo"/>
+                                    <constraint firstAttribute="width" constant="100" id="Qio-1r-2Ed"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZV-4n-Sw5">
+                                <rect key="frame" x="110.5" y="584" width="154" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MW2-D8-NTc"/>
+                                    <constraint firstAttribute="width" constant="154" id="zSE-18-4p4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ComicSansMS" family="Comic Sans MS" pointSize="24"/>
+                                <state key="normal" title="Stop Playing">
+                                    <color key="titleColor" red="1" green="0.58025133792048933" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-oo-9oM">
+                                <rect key="frame" x="284" y="594" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ECF-wI-LHN"/>
+                                    <constraint firstAttribute="width" constant="30" id="sEJ-xf-qBR"/>
+                                </constraints>
+                                <state key="normal" image="Help2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROF-S7-Lz5">
+                                <rect key="frame" x="64.5" y="594" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0z2-Y4-EXq"/>
+                                    <constraint firstAttribute="width" constant="30" id="hZ8-Cw-Nah"/>
+                                </constraints>
+                                <state key="normal" image="MoreDetail2 copy"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.63921568627450975" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.21568627450980393" green="0.64313725490196072" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="qPg-jG-Idx" secondAttribute="centerY" multiplier="20:10" id="1T1-hf-BUc"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="n8q-a6-1UY" secondAttribute="centerY" multiplier="20:10" id="4hK-wf-oKs"/>
+                            <constraint firstItem="Krz-zR-56w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6TI-FY-vnW"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7ZV-4n-Sw5" secondAttribute="bottom" constant="33" id="6hR-Nb-p50"/>
+                            <constraint firstAttribute="trailing" secondItem="n8q-a6-1UY" secondAttribute="centerX" multiplier="14:11" id="772-Lf-tab"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IPH-IX-QTp" secondAttribute="centerY" multiplier="20:16" id="9wG-qH-WAf"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="HoE-Bg-X6l" secondAttribute="centerY" multiplier="20:4" id="AoG-OB-kfk"/>
+                            <constraint firstItem="JOX-Py-vPG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E0i-VF-wgB"/>
+                            <constraint firstAttribute="trailing" secondItem="wn7-2o-MMx" secondAttribute="centerX" multiplier="14:11" id="E7m-rm-OR2"/>
+                            <constraint firstAttribute="trailing" secondItem="3xq-9k-AwR" secondAttribute="centerX" multiplier="14:3" id="E8V-nC-acn"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="JOX-Py-vPG" secondAttribute="centerY" multiplier="20:16" id="FT6-tV-weL"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="3xq-9k-AwR" secondAttribute="centerY" multiplier="20:7" id="G0k-mj-fhc"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Kyh-oo-9oM" secondAttribute="bottom" constant="43" id="HFw-4p-Ezh"/>
+                            <constraint firstItem="fqk-CI-ed4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IQu-BN-U7H"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fqk-CI-ed4" secondAttribute="centerY" multiplier="20:13" id="Luc-0r-RX4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Hj5-zj-9DF" secondAttribute="centerY" multiplier="20:10" id="NLx-Ts-7P5"/>
+                            <constraint firstAttribute="trailing" secondItem="UiF-RM-1Qj" secondAttribute="centerX" multiplier="14:11" id="Nnt-R6-nyq"/>
+                            <constraint firstAttribute="trailing" secondItem="UeY-op-hfr" secondAttribute="centerX" multiplier="14:3" id="OgW-cI-UIb"/>
+                            <constraint firstItem="HoE-Bg-X6l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VgY-3N-FFe"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UiF-RM-1Qj" secondAttribute="centerY" multiplier="20:13" id="aSr-Ne-oW2"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="8bf-ha-CAz" secondAttribute="centerY" multiplier="20:7" id="agG-q0-QHx"/>
+                            <constraint firstAttribute="trailing" secondItem="Hj5-zj-9DF" secondAttribute="centerX" multiplier="14:3" id="bXw-dY-DE6"/>
+                            <constraint firstItem="UeM-LF-6wn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cw2-JF-imR"/>
+                            <constraint firstItem="Krz-zR-56w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="dHP-60-gH7"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="NXS-1r-A4D" secondAttribute="centerY" multiplier="20:4" id="jKg-aF-aws"/>
+                            <constraint firstAttribute="trailing" secondItem="60P-Yj-kU7" secondAttribute="centerX" multiplier="14:3" id="lnr-8Q-let"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UeY-op-hfr" secondAttribute="centerY" multiplier="20:13" id="p9H-4d-Ahd"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="60P-Yj-kU7" secondAttribute="centerY" multiplier="20:16" id="qaq-Ze-3GU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UeM-LF-6wn" secondAttribute="centerY" multiplier="20:7" id="rjW-VB-NId"/>
+                            <constraint firstAttribute="trailing" secondItem="NXS-1r-A4D" secondAttribute="centerX" multiplier="14:3" id="sFt-4d-F0y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wn7-2o-MMx" secondAttribute="centerY" multiplier="20:4" id="sSI-ta-XE9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ROF-S7-Lz5" secondAttribute="bottom" constant="43" id="sYq-C1-ZKu"/>
+                            <constraint firstItem="7ZV-4n-Sw5" firstAttribute="leading" secondItem="ROF-S7-Lz5" secondAttribute="trailing" constant="16" id="smA-SN-iW4"/>
+                            <constraint firstItem="qPg-jG-Idx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="svz-Zt-aSt"/>
+                            <constraint firstAttribute="trailing" secondItem="8bf-ha-CAz" secondAttribute="centerX" multiplier="14:11" id="uNi-Vp-jnO"/>
+                            <constraint firstItem="GyJ-zg-hjU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uWV-di-Ckt"/>
+                            <constraint firstItem="7ZV-4n-Sw5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wYO-pQ-5QF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kyh-oo-9oM" secondAttribute="trailing" constant="45" id="x15-rB-XL4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="GyJ-zg-hjU" secondAttribute="bottom" constant="10" id="y27-8F-qlO"/>
+                            <constraint firstAttribute="trailing" secondItem="IPH-IX-QTp" secondAttribute="centerX" multiplier="14:11" id="zhC-HE-A3F"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="pageLabel" destination="GyJ-zg-hjU" id="PGQ-r8-SaN"/>
+                        <outlet property="stopButton" destination="7ZV-4n-Sw5" id="LFu-9G-xYT"/>
+                        <outletCollection property="soManyDifferentButtons" destination="OId-VC-69R" collectionClass="NSMutableArray" id="Jkw-gh-UBO"/>
+                        <outletCollection property="soManyDifferentButtons" destination="J8o-pi-6Dt" collectionClass="NSMutableArray" id="cxL-QH-31W"/>
+                        <outletCollection property="soManyDifferentButtons" destination="ly4-Mt-Clr" collectionClass="NSMutableArray" id="x88-Eb-UoM"/>
+                        <outletCollection property="soManyDifferentButtons" destination="3Dg-aj-yEp" collectionClass="NSMutableArray" id="feo-BN-Pdw"/>
+                        <outletCollection property="soManyDifferentButtons" destination="U60-Pv-aom" collectionClass="NSMutableArray" id="b0Q-x2-T3z"/>
+                        <outletCollection property="soManyDifferentButtons" destination="f5r-u7-zqm" collectionClass="NSMutableArray" id="wUm-fb-t5o"/>
+                        <outletCollection property="soManyDifferentButtons" destination="k9t-rd-NyW" collectionClass="NSMutableArray" id="xcy-cg-pBh"/>
+                        <outletCollection property="soManyDifferentButtons" destination="cZ3-dZ-PW4" collectionClass="NSMutableArray" id="qoI-Qp-RKF"/>
+                        <outletCollection property="soManyDifferentButtons" destination="DmL-wq-95h" collectionClass="NSMutableArray" id="Tqd-NJ-hTJ"/>
+                        <outletCollection property="soManyDifferentButtons" destination="rCl-mc-lOM" collectionClass="NSMutableArray" id="kdu-sV-8cn"/>
+                        <outletCollection property="soManyDifferentButtons" destination="P3w-QI-lzr" collectionClass="NSMutableArray" id="UZf-I8-SqR"/>
+                        <outletCollection property="soManyDifferentButtons" destination="rUR-oX-yu7" collectionClass="NSMutableArray" id="2lI-kd-uD4"/>
+                        <outletCollection property="soManyDifferentButtons" destination="uH6-sA-zVT" collectionClass="NSMutableArray" id="8GT-a5-8dY"/>
+                        <outletCollection property="soManyDifferentButtons" destination="zSK-sa-fTN" collectionClass="NSMutableArray" id="Pj8-XM-x9U"/>
+                        <outletCollection property="soManyDifferentButtons" destination="w4v-XS-C7q" collectionClass="NSMutableArray" id="hKF-UX-fSL"/>
+                        <outletCollection property="soManyDifferentLabels" destination="I0L-pV-iLF" collectionClass="NSMutableArray" id="IHJ-wS-Hne"/>
+                        <outletCollection property="soManyDifferentLabels" destination="VNE-U2-Aif" collectionClass="NSMutableArray" id="BrK-k3-9NF"/>
+                        <outletCollection property="soManyDifferentLabels" destination="uUh-az-pqK" collectionClass="NSMutableArray" id="Bjp-Sq-32s"/>
+                        <outletCollection property="soManyDifferentLabels" destination="B5z-Ei-UOZ" collectionClass="NSMutableArray" id="G1a-BV-g1Y"/>
+                        <outletCollection property="soManyDifferentLabels" destination="riU-SS-Hi1" collectionClass="NSMutableArray" id="bJC-WB-XBF"/>
+                        <outletCollection property="soManyDifferentLabels" destination="1ka-g9-wNc" collectionClass="NSMutableArray" id="Q8D-gB-flB"/>
+                        <outletCollection property="soManyDifferentLabels" destination="auD-IP-Hfh" collectionClass="NSMutableArray" id="bnM-Qf-98H"/>
+                        <outletCollection property="soManyDifferentLabels" destination="u85-Tk-iTu" collectionClass="NSMutableArray" id="Mq0-4j-EQR"/>
+                        <outletCollection property="soManyDifferentLabels" destination="JT4-bA-2mO" collectionClass="NSMutableArray" id="Z6L-Cc-fx8"/>
+                        <outletCollection property="soManyDifferentLabels" destination="S5x-N9-mqw" collectionClass="NSMutableArray" id="yg1-Rh-xD3"/>
+                        <outletCollection property="soManyDifferentLabels" destination="zsf-OB-OQH" collectionClass="NSMutableArray" id="ptl-Q3-ByD"/>
+                        <outletCollection property="soManyDifferentLabels" destination="aKL-7F-N8i" collectionClass="NSMutableArray" id="PH4-DB-tbk"/>
+                        <outletCollection property="soManyDifferentLabels" destination="DyM-7w-frj" collectionClass="NSMutableArray" id="30V-fO-7CL"/>
+                        <outletCollection property="soManyDifferentLabels" destination="uOM-g9-J2s" collectionClass="NSMutableArray" id="PlK-lU-XO9"/>
+                        <outletCollection property="soManyDifferentLabels" destination="9kf-cg-ThR" collectionClass="NSMutableArray" id="gLY-9z-SxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="189"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="XEP-Hb-cse">
+            <objects>
+                <pageViewController storyboardIdentifier="JITPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="koo-Mk-AVl" customClass="JITPageViewController" customModule="Get_REKT" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGF-9l-iv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-633" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Help2" width="791" height="800"/>
+        <image name="MoreDetail2 copy" width="512" height="512"/>
+    </resources>
+</document>

@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import AVFoundation
+import AVKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,15 +26,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let pageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GRSBPageViewController") as! GRSBPageViewController
         //self.presentViewController(pageVC!, animated: false, completion: nil)
         //self.window!.rootViewController = PageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil))
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = UIColor(red:0.95, green:0.95, blue:0.96, alpha:1.0)
-        let pageVC = GRSBPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.backgroundColor = UIColor(red:0.95, green:0.95, blue:0.96, alpha:1.0)
+        
+//        let pageVC = JITPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        
+        let pageVC = UIStoryboard(name: "GRSB2", bundle: nil).instantiateViewController(withIdentifier: "JITPageViewController") as! JITPageViewController
         self.window?.rootViewController = pageVC
         self.window?.makeKeyAndVisible()
+        
+        
+        
         //self.presentViewController(pageVC!, animated: false, completion: nil)
 //        self.window.rootViewController = pageVC
 //        self.window.makeKeyAndVisible()
 //
+        
+        _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+        _ = try? AVAudioSession.sharedInstance().setActive(true)
+        UIApplication.shared.beginReceivingRemoteControlEvents()
+    
+
+        let data = UserDefaults.standard
+        if (data.object(forKey: "favoriteSoundArray") == nil) {
+            print("Initializing new favoriteSoundArray")
+            let favSounds = [String]()
+            data.set(favSounds, forKey: "favoriteSoundArray")
+        }
         
         return true
     }

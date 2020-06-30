@@ -1,20 +1,20 @@
 //
-//  GRSBPageViewController.swift
+//  GRSBFavoritesPageViewController.swift
 //  GRSB Swift 5
 //
-//  Created by Jared Ebenstein on 6/28/20.
+//  Created by Jared Ebenstein on 6/29/20.
 //  Copyright © 2020 Jared Ebenstein. All rights reserved.
 //
 
 import UIKit
 
-class GRSBPageViewController: UIPageViewController {
+class GRSBFavoritesPageViewController: UIPageViewController {
 
     var pageControl: UIPageControl!
-    var pages = [GRSBSoundViewController]()
+    var pages = [GRSBFavoritesSoundViewController]()
     let customGreenColor = UIColor(red: 55.0/255.0, green: 164.0/255.0, blue: 0.0/255.0, alpha: 1.0)
-
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataSource = self
@@ -27,8 +27,16 @@ class GRSBPageViewController: UIPageViewController {
         // Do any additional setup after loading the view.
     }
     
-    func initializeSoundViewControllers() -> [GRSBSoundViewController]{
-        var soundViewControllers = [GRSBSoundViewController]()
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        let currentFrame = pageControl.frame
+        pageControl.frame = CGRect(x: currentFrame.origin.x, y: currentFrame.origin.y, width: currentFrame.width + 20, height: currentFrame.height)
+        pageControl.layer.cornerRadius = currentFrame.height / 2
+    }
+    
+    
+    func initializeSoundViewControllers() -> [GRSBFavoritesSoundViewController]{
+        var soundViewControllers = [GRSBFavoritesSoundViewController]()
         print("Did we allocate a view controller upon array creation? " + soundViewControllers.count.description)
         let totalSounds = globalSoundList.count
         var totalPages = totalSounds / 15
@@ -40,18 +48,15 @@ class GRSBPageViewController: UIPageViewController {
         print("\(globalSoundList.count) sounds = \(globalSoundList.count / 15) remainder \(globalSoundList.count % 15)")
         
         for i in 0...totalPages - 1{
-            soundViewControllers.append(GRSBSoundViewController())
+            soundViewControllers.append(GRSBFavoritesSoundViewController())
         }
         print("Allocated " + soundViewControllers.count.description + " sound view controllers")
         return soundViewControllers
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        let currentFrame = pageControl.frame
-        pageControl.frame = CGRect(x: currentFrame.origin.x, y: currentFrame.origin.y, width: currentFrame.width + 20, height: currentFrame.height)
-        pageControl.layer.cornerRadius = currentFrame.height / 2
-    }
+    // PUT RIGHT HERE
+    
+    // Creates a sound's button and label and constrains them to a UIView
     
 
     /*
@@ -66,13 +71,12 @@ class GRSBPageViewController: UIPageViewController {
 
 }
 
-
-extension GRSBPageViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+extension GRSBFavoritesPageViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        if let viewControllerIndex = pages.index(of: viewController as! GRSBSoundViewController) {
+        if let viewControllerIndex = pages.index(of: viewController as! GRSBFavoritesSoundViewController) {
             if viewControllerIndex != 0 {
                 let beforeController = pages[viewControllerIndex - 1]
-                beforeController.page = (viewController as! GRSBSoundViewController).page - 1
+                beforeController.page = (viewController as! GRSBFavoritesSoundViewController).page - 1
                 return beforeController
             }
             else {
@@ -84,10 +88,10 @@ extension GRSBPageViewController: UIPageViewControllerDataSource, UIPageViewCont
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         var maxPages = 4
-        if let viewControllerIndex = pages.index(of: viewController as! GRSBSoundViewController) {
+        if let viewControllerIndex = pages.index(of: viewController as! GRSBFavoritesSoundViewController) {
             if viewControllerIndex < pages.count - 1 {
                 let afterController = pages[viewControllerIndex + 1]
-                afterController.page = (viewController as! GRSBSoundViewController).page + 1
+                afterController.page = (viewController as! GRSBFavoritesSoundViewController).page + 1
                 return afterController
             }
             else {
@@ -98,7 +102,8 @@ extension GRSBPageViewController: UIPageViewControllerDataSource, UIPageViewCont
     }
 }
 
-extension GRSBPageViewController {
+
+extension GRSBFavoritesPageViewController {
     func setupViews() {
         pageControl = UIPageControl()
         pageControl.numberOfPages = pages.count
